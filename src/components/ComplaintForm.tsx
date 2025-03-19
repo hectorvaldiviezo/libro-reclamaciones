@@ -300,7 +300,7 @@ export default function ComplaintForm() {
     }
   };
 
-  const sedes = useSedes(1);
+  const sedes = useSedes(3);
 
   return (
     <div className="w-full py-20 px-2 flex justify-center items-center bg-muted">
