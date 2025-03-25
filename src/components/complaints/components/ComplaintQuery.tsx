@@ -88,7 +88,7 @@ export default function ComplaintQuery({
             <div>
               <Button
                 variant="secondary"
-                onClick={() => navigate.push("/")}
+                onClick={() => navigate.push("/libro-reclamaciones")}
               >
                 <Plus className="max-w-3.5 max-h-3.5 mr-2" />
                 Nuevo Reclamo

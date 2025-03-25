@@ -276,7 +276,7 @@ export default function ComplaintForm() {
         successToast(response.message);
         await setComplaintCode(response.complaintCode);
         await loadComplaint();
-        navigate.push("/consulta");
+        navigate.push("/libro-reclamaciones/consulta");
       })
       .catch((error: any) => {
         errorToast(error.response.data.message);
