@@ -1,6 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    basePath: "/libro-reclamaciones",
     experimental: {
         missingSuspenseWithCSRBailout: false,
     },
