@@ -52,7 +52,7 @@ export default function Header({
       >
         <Link href="/" className="flex items-center justify-center gap-2">
           <Avatar className="rounded-xl">
-            <AvatarImage src="/tplogowhite.svg" alt="tp" />
+            <AvatarImage src="/aplogowhite.svg" alt="tp" />
             <AvatarFallback className="bg-transparent text-secondary">
               TP
             </AvatarFallback>
