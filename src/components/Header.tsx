@@ -50,11 +50,11 @@ export default function Header({
             : "bg-transparent"
         }`}
       >
-        <Link href="/" className="flex items-center justify-center gap-2">
+        <Link href="/libro-reclamaciones" className="flex items-center justify-center gap-2">
           <Avatar className="rounded-xl">
             <AvatarImage src="/aplogowhite.svg" alt="tp" />
             <AvatarFallback className="bg-transparent text-secondary">
-              TP
+              AP
             </AvatarFallback>
           </Avatar>
           <div className="text-base sm:text-xl tracking-tight font-bold text-secondary flex flex-col">
