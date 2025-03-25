@@ -6,8 +6,8 @@ import { ReactQueryClientProvider } from "@/components/Provider";
 import ButtonWhatsapp from "@/components/button-whatsapp";
 
 export const metadata: Metadata = {
-  title: "Transportes Pakatnamu",
-  description: "Página web de Transportes Pakatnamu",
+  title: "Libro de Reclamaciones",
+  description: "Libro de Reclamaciones de Automotores Paktnamú",
 };
 
 const roboto = Roboto({
@@ -27,7 +27,7 @@ export default function RootLayout({
         <body className={`${roboto.variable}`}>
           {children}
           <Toaster />
-          <ButtonWhatsapp />
+          {/* <ButtonWhatsapp /> */}
         </body>
       </html>
     </ReactQueryClientProvider>
