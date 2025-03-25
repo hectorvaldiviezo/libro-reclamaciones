@@ -78,7 +78,7 @@ export default function Hero({
             <div className="flex justify-center gap-4">
               <Button
                 variant="secondary"
-                onClick={() => navigate.push("/consulta")}
+                onClick={() => navigate.push("/libro-reclamaciones/consulta")}
               >
                 <Search className="w-6 h-6 mr-2" />
                 Consultar reclamo
