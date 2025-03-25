@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="bg-gray-800 text-white py-8">
       <div className="container max-w-screen-xl flex flex-col gap-2 mx-auto px-4 text-start">
         <p className="text-center text-xs md:text-sm">
-          &copy; {year} {company}. Todos los derechos reservados.
+          {year} &copy; {company}. Todos los derechos reservados.
         </p>
       </div>
     </footer>
