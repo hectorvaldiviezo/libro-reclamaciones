@@ -37,8 +37,7 @@ export default function Page() {
           subtitle=""
           description=""
           src={
-            MILLA_BASE +
-            "/transportes/administradorweb/hero_libro_reclamaciones.png"
+            MILLA_BASE + process.env.NEXT_PUBLIC_HERO_IMAGE_URL
           }
           height="h-[400px]"
           gradient={true}
